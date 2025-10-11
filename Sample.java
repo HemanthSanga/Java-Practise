@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Sample {
    public static void main(String[] args){
     int wholeNumber;
@@ -43,6 +45,16 @@ public class Sample {
     System.out.println("Student's Percentage: " + studentpercentage);
     System.out.println("The student is Punctual: " + studentIsPunctual);
     System.out.println("The student is sick: " + studentIsSick);
+
+    var student = new ArrayList<String>();
+        student.add("Uniform");
+        student.add("Shoes");
+        student.add("College bag");
+        student.add("Stationary");
+        student.add("Bicycle");
+        student.add("Library ID");
+        student.add("Sports");
+    System.out.println(student);
 
 }
 
