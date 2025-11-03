@@ -3,7 +3,7 @@ class Person {
     public int age = 30;
 }
 
-public class Main {
+public class AccessModifiers {
     public static void main(String[] args) {
         Person p = new Person();
         System.out.println("Name: " + p.name);
