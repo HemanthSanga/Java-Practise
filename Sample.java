@@ -26,7 +26,7 @@ public class Sample {
     System.out.println((a+b+c));
     System.out.println(x+y+z);
 
-    String studentFirstName = "Hemanth";
+    String studentFirstName = "Hemanth";// Different datatypes with examples
     String studentSecondName = "Sanga";
     int studentID = 390;
     char studentGrade = 'A';
@@ -46,7 +46,7 @@ public class Sample {
     System.out.println("The student is Punctual: " + studentIsPunctual);
     System.out.println("The student is sick: " + studentIsSick);
 
-    var student = new ArrayList<String>();
+    var student = new ArrayList<String>(); //var Keyword with Array example
         student.add("Uniform");
         student.add("Shoes");
         student.add("College bag");
@@ -55,6 +55,42 @@ public class Sample {
         student.add("Library ID");
         student.add("Sports");
     System.out.println(student);
+
+    
+    /*Type Casting */
+    int d = 4;
+    long l = d;
+    double k = d; //Wide casting
+
+    System.out.println("Given int value is: " + d);
+    System.out.println("The long value of int is: " + l);
+    System.out.println("The double value of int is: " + k);
+
+
+    double kk = 89.3d;
+    int ik = (int) kk; //Narrow casting
+
+    System.out.println("Given double value is: " + kk);
+    System.out.println("The int value og given double is: " + ik);
+
+    int maxScore = 600;
+    int userScore = 405;
+
+    double scorePercentage = (double) userScore/maxScore*100d;
+    /*Turning the int value to a floating-point value*/
+
+    System.out.println("The Percentage value of user score is: " + scorePercentage);
+
+    /*Average of different ages calculator */
+
+    int ages[] = {12, 15, 14, 10, 13, 16, 15, 14};
+    int avg,sum = 0;
+
+    for(int age:ages){   /*for(i=0, i<ages.length, i++) */
+        sum += age;      /*The loop continues from age[0] index value of 12 to age[7] */
+    }
+    avg = sum/ages.length;
+    System.out.println("The average age is: " + avg);
 
 }
 
