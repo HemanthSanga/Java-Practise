@@ -49,7 +49,7 @@ class Second {
 }
 
 
-class Person {
+class Person3 {
        public static void main(String[] args){
         Main myObj3 = new Main();
         System.out.println("Name: " + myObj3.fname + " " + myObj3.lname); // accessing String variables from Main class to Person class.
